@@ -1,0 +1,19 @@
+# Libraries installed by the program on first run
+lib/
+
+# The model is downloaded on first use (too big for a normal GitHub file)
+models/*.onnx
+models/*.part
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Results and test photos
+* - new background.jpg
+
+# Development files (mask cache, review sheets)
+dev/
+
+# Personal guide, not part of the program
+GITHUB_UPLOAD_GUIDE.md
